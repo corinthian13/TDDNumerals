@@ -14,8 +14,7 @@ public class Numerals
 	private int year; // Arabic year alone, e.g. 1916
 	private String yearSt; // Input year string with era and space removed
 
-	public Numerals(String stringYear) // Full Arabic year as a string, e.g.
-										// 1916 AD
+	public Numerals(String stringYear) // Full Arabic year as a string, e.g. 1916 AD
 	{
 		if (stringYear.equals(""))
 		{
